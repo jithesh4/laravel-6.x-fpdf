@@ -1,0 +1,37 @@
+{
+    "name": "Jithesh/laravel-6.x-fpdf",
+
+    "description": "Laravel package for FPDF.",
+
+    "license": "MIT",
+
+    "keywords": ["laravel", "fpdf"],
+
+    "authors": [
+        {
+            "name": "JITHESH K",
+            "email": "jithesh4@gmail.com"
+        }
+    ],
+
+    "require": {
+       "illuminate/support": ">=5.1.0",
+       "illuminate/database": ">=5.1.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Jithesh\\Fpdf\\": "pdf/"
+        }
+    },
+
+    "minimum-stability": "dev",
+    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jithesh\\Fpdf\\FpdfService"
+            ]
+        }
+    }
+}
